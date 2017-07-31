@@ -25,7 +25,7 @@ namespace TicTacToe.iOS
 		//
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
-            MobileCenter.Configure("b750cc7d-c006-44f4-ac96-511672277766");
+            //MobileCenter.Configure("b750cc7d-c006-44f4-ac96-511672277766");
 
 #if DEBUG
             Xamarin.Calabash.Start();

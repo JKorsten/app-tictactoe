@@ -15,7 +15,7 @@ namespace TicTacToe
 		{
 			InitializeComponent();
 
-            MobileCenter.Start(typeof(Analytics), typeof(Crashes));
+            //MobileCenter.Start(typeof(Analytics), typeof(Crashes));
 
             MainPage = new NavigationPage(new HomePage())
             {
